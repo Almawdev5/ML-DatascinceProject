@@ -1,48 +1,34 @@
-# Telecom Churn Prediction with KNN
+# ML Data Science Project
 
-This project demonstrates a simple machine learning workflow for predicting customer churn in the telecom sector using the K-Nearest Neighbors (KNN) algorithm.
+## Overview
+This repository contains Machine Learning and Data Science tasks, exercises, and mini-projects using Python. It is created for learning and practicing data analysis, visualization, and machine learning models.
 
-## Features
-- Loads and explores a telecom churn dataset
-- Preprocesses data and scales features
-- Finds the best value of K for KNN
-- Trains and evaluates the final model
-- Visualizes accuracy and confusion matrix
+## Objectives
+- Practice data preprocessing and cleaning
+- Perform exploratory data analysis (EDA)
+- Build and train machine learning models
+- Evaluate model performance
+- Improve Python and data science skills
 
-## Requirements
-- Python 3.7+
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook / Google Colab
 
-## How to Run
-1. (Optional) Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-2. Install dependencies:
-   ```bash
-   pip install pandas matplotlib seaborn scikit-learn
-   ```
-3. Run the script:
-   ```bash
-   python task1.py
-   ```
+## Project Workflow
+1. Load dataset
+2. Data cleaning and preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature engineering
+5. Model training
+6. Model evaluation
+7. Prediction and results interpretation
 
-## Dataset
-- The script downloads the dataset automatically from:
-  [telecom_churn_clean.csv](https://raw.githubusercontent.com/DataAnalyst21/DatasetsForDataAnalytics/refs/heads/main/telecom_churn_clean.csv)
-
-## Output
-- Prints dataset shape and churn distribution
-- Plots KNN accuracy for different K values
-- Prints classification report
-- Plots confusion matrix
+## Purpose
+This project is for educational purposes to strengthen skills in Machine Learning and Data Science through hands-on practice.
 
 ## Author
-- Your Name
-
----
-Feel free to modify and extend this project for your own use!
+Created by a Tadai.
